@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,9 +14,8 @@ body {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #5BC0EB;
     padding: 20px;
-    position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -27,12 +29,12 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1200px; /* Ajuste a largura máxima conforme necessário */
+    max-width: 1200px; 
 }
 
 .logo {
     width: 100px;
-    margin-right: 20px; /* Espaçamento entre logo e links */
+    margin-right: 20px;
 }
 
 nav {
@@ -53,18 +55,28 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #555555;
     font-weight: bold;
+    font-family: Merriweather;
+    font-size: 20px;
 }
 
-.titulo-introducao {
+
+.titulo-introducao, 
+.titulo-quem {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 120px;
+    font-size: 45px;
+    font-family: Lora;
+    color: #0B3C5D;
 }
 
 .texto-introducao {
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
+    font-size: 25px;
+    color: #555555;
+    font-family: Lora;
 }
 
 .botao-container {
@@ -74,12 +86,20 @@ nav ul li a {
 }
 
 .botao-introducao {
-    margin-top: 40px;
-    background-color: #555555;
+    margin-top: 100px;
+    background-color: #0B3C5D;
     color: white;
     padding: 1.3em 2em;
     font-size: 12px;
     cursor: pointer;
     border-radius: 25px;
     border: none;
+}
+
+.botao-introducao:hover {
+    background-color: #5BC0EB;
+}
+
+.titulo-quem {
+    
 }
