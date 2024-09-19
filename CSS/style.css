@@ -55,7 +55,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #555555;
+    color: black;
     font-weight: bold;
     font-family: Merriweather;
     font-size: 20px;
@@ -241,4 +241,15 @@ nav ul li a {
     margin-right: 1400px;
 }
 
+.servicos {
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.nosso-servico {
+    margin-top: 100px;
+    font-size: 45px;
+    font-family: Lora;
+    color: #0B3C5D;
+}
 
