@@ -102,6 +102,13 @@ nav ul li a {
 
 .sobre-container {
     max-width: 500px;
+    align-items: center;
+}        
+
+.imagem-sobre {
+    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
 
 .titulo-sobre {
@@ -128,4 +135,110 @@ nav ul li a {
     margin-left: 150px;
     font-family: Lora;
 }
+
+.titulo-missao {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 90px;
+    margin-left: 1200px;
+    position: relative;
+}
+
+.titulo-missao::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5.2%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+
+.texto-missao {
+    margin-top: 20px;
+    margin-left: 1200px;
+    margin-right: 150px;
+    font-family: Lora;
+}
+
+.titulo-abordagem {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 90px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.texto-abordagem {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Lora;
+    margin-right: 1400px;
+}
+
+.titulo-abordagem::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+.titulo-diferenciais {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 90px;
+    margin-left: 1200px;
+    position: relative;
+}
+
+.titulo-diferenciais::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+.texto-diferenciais {
+    margin-top: 20px;
+    margin-left: 1200px;
+    margin-right: 150px;
+    font-family: Lora;
+}
+
+.titulo-equipe {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 90px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.titulo-equipe::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+.texto-equipe {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Lora;
+    margin-right: 1400px;
+}
+
 
