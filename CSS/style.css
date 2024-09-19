@@ -89,7 +89,7 @@ nav ul li a {
     margin-top: 100px;
     background-color: #0B3C5D;
     color: white;
-    padding: 1.3em 2em;
+    padding: 1.7em 4em;
     font-size: 12px;
     cursor: pointer;
     border-radius: 25px;
@@ -100,6 +100,32 @@ nav ul li a {
     background-color: #5BC0EB;
 }
 
-.titulo-quem {
-    
+.sobre-container {
+    max-width: 500px;
 }
+
+.titulo-sobre {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 90px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.titulo-sobre::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+.texto-sobre {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Lora;
+}
+
