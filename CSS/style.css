@@ -348,6 +348,33 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
+}
+
+.container-form{
+    background-color: beige;
+    border-radius: 20px; /* Ajuste o arredondamento se necessário */
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    margin: 0 auto; /* Centraliza horizontalmente se necessário */
+}
+
+.form-inscrever {
+    font-family: Lora;
+    font-size: 30px;
+    color: #0B3C5D;
+}
+
+.asterisk {
+    font-family: Lora;
+    font-size: 10px;
+}
+
+.texto-form {
+    font-family: Lora;
+    font-size: 20px;
+    color: #0B3C5D;
 }
 
 
