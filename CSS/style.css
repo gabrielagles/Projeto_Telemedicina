@@ -100,11 +100,6 @@ nav ul li a {
     background-color: #5BC0EB;
 }
 
-.sobre-container {
-    max-width: 500px;
-    align-items: center;
-}  
-
 
 .info-jornada {
     margin-top: 100px;
@@ -143,6 +138,54 @@ nav ul li a {
     font-size: 20px;
 }
 
+.sobre-container{
+    max-width: 500px;
+    align-items: center;
+}
+
+.sobre-direita {
+    max-width: 500px;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.titulo-abordagem,
+.titulo-visao,
+.titulo-sobre,
+.titulo-valores,
+.titulo-missao {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.titulo-abordagem::after,
+.titulo-visao::after,
+.titulo-sobre::after,
+.titulo-valores::after,
+.titulo-missao::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+.texto-abordagem,
+.texto-visao,
+.texto-missao,
+.titulo-sobre {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Merriweather;
+}
+
+
 .titulo-sobre {
     font-size: 25px;
     color: #0B3C5D;
@@ -162,115 +205,11 @@ nav ul li a {
     background-color: #0B3C5D; 
 }
 
-.texto-sobre {
+.texto-sobre,
+.texto-valores {
     margin-top: 20px;
     margin-left: 150px;
     font-family: Merriweather;
-}
-
-.titulo-missao {
-    font-size: 25px;
-    color: #0B3C5D;
-    margin-top: 90px;
-    margin-left: 1200px;
-    position: relative;
-}
-
-.titulo-missao::after {
-    margin-top: 10px;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 5.2%;
-    height: 2px; 
-    background-color: #0B3C5D; 
-}
-
-
-.texto-missao {
-    margin-top: 20px;
-    margin-left: 1200px;
-    margin-right: 150px;
-    font-family: Merriweather;
-}
-
-.titulo-abordagem {
-    font-size: 25px;
-    color: #0B3C5D;
-    margin-top: 90px;
-    margin-left: 150px;
-    position: relative;
-}
-
-.texto-abordagem {
-    margin-top: 20px;
-    margin-left: 150px;
-    font-family: Merriweather;
-    margin-right: 1400px;
-}
-
-.titulo-abordagem::after {
-    margin-top: 10px;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 2%;
-    height: 2px; 
-    background-color: #0B3C5D; 
-}
-
-.titulo-diferenciais {
-    font-size: 25px;
-    color: #0B3C5D;
-    margin-top: 90px;
-    margin-left: 1200px;
-    position: relative;
-}
-
-.titulo-diferenciais::after {
-    margin-top: 10px;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 5%;
-    height: 2px; 
-    background-color: #0B3C5D; 
-}
-
-.texto-diferenciais {
-    margin-top: 20px;
-    margin-left: 1200px;
-    margin-right: 150px;
-    font-family: Merriweather;
-}
-
-.titulo-equipe {
-    font-size: 25px;
-    color: #0B3C5D;
-    margin-top: 90px;
-    margin-left: 150px;
-    position: relative;
-}
-
-.titulo-equipe::after {
-    margin-top: 10px;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 2%;
-    height: 2px; 
-    background-color: #0B3C5D; 
-}
-
-.texto-equipe {
-    margin-top: 20px;
-    margin-left: 150px;
-    font-family: Merriweather;
-    margin-right: 1400px;
 }
 
 .servicos {
