@@ -243,13 +243,110 @@ nav ul li a {
 
 .servicos {
     margin-top: 150px;
-    margin-left: 20px;
+    background-color: beige;
+    box-shadow: inset 0px 1px #555555;
+    padding: 20px; /* Adiciona algum espaçamento interno */
 }
 
 .nosso-servico {
+    margin-left: 20px;
     margin-top: 100px;
     font-size: 45px;
     font-family: Lora;
     color: #0B3C5D;
 }
+
+.servicos {
+    margin-top: 150px;
+    background-color: beige;
+    box-shadow: inset 0px 1px #555555;
+    padding: 20px;
+}
+
+.nosso-servico {
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 45px;
+    font-family: Lora;
+    color: #0B3C5D;
+}
+
+.servicos {
+    margin-top: 150px;
+    background-color: beige;
+    box-shadow: inset 0px 1px #555555;
+    padding: 20px;
+}
+
+.nosso-servico {
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 45px;
+    font-family: Lora;
+    color: #0B3C5D;
+}
+
+.servicos-caixas-psicologia,
+.servicos-caixas-cardiologia,
+.servicos-caixas-nutricao {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto ao topo */
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.imagem-servicos {
+    width: 200px; /* Define a largura fixa das imagens */
+    height: 200px; /* Define a altura fixa das imagens */
+    border-radius: 20px; /* Mantém o arredondamento dos cantos */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
+}
+
+.info-servico {
+    display: flex;
+    flex-direction: column; /* Alinha título, valor e botão verticalmente */
+}
+
+.titulo-psicologia,
+.titulo-cardiologia,
+.titulo-nutricao {
+    font-size: 40px;
+    font-family: Lora;
+    color: #555555;
+    margin: 0;
+}
+
+.texto-psicologia,
+.texto-cardiologia,
+.texto-nutricao {
+    font-size: 20px;
+    margin: 10px 0; /* Margem vertical para separar os elementos */
+    font-family: Lora;
+}
+
+.botao-psicologia,
+.botao-cardiologia,
+.botao-nutricao {
+    width: 150px;
+    margin-top: 10px; 
+    background-color: #555555;
+    color: white;
+    padding: 0.7em 0.5em; 
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 
