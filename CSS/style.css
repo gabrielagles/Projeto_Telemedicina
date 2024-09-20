@@ -61,12 +61,16 @@ nav ul li a {
     font-size: 20px;
 }
 
+.bem-vindo {
+    padding: 188px;
+    background-color: rgb(213, 228, 231) ;
+}
+
 
 .titulo-introducao, 
 .titulo-quem {
     text-align: center;
-    margin-top: 120px;
-    font-size: 45px;
+    font-size: 65px;
     font-family: Lora;
     color: #0B3C5D;
 }
@@ -74,7 +78,7 @@ nav ul li a {
 .texto-introducao {
     margin-top: 100px;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     color: #555555;
     font-family: Merriweather;
 }
@@ -89,7 +93,7 @@ nav ul li a {
     margin-top: 100px;
     background-color: #0B3C5D;
     color: white;
-    padding: 1.7em 4em;
+    padding: 1.7em 5.5em;
     font-size: 12px;
     cursor: pointer;
     border-radius: 25px;
@@ -102,7 +106,6 @@ nav ul li a {
 
 
 .info-jornada {
-    margin-top: 100px;
     background-image: url(/ASSETS/saude.jpg);
     height: 100vh;
     background-position: center;
@@ -138,6 +141,16 @@ nav ul li a {
     font-size: 20px;
 }
 
+.quem-container { 
+    background-image: url(/ASSETS/file.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: -100px center;
+    padding-top: 150px; /* Adiciona espaço acima do conteúdo sem mover a imagem */
+    padding-bottom: 150px;
+    
+}
+
 .sobre-container{
     max-width: 500px;
     align-items: center;
@@ -146,7 +159,7 @@ nav ul li a {
 .sobre-direita {
     max-width: 500px;
     align-items: center;
-    margin-left: 700px;
+    margin-left: 1270px;/*700px*/
 }
 
 .titulo-abordagem,
@@ -156,7 +169,7 @@ nav ul li a {
 .titulo-missao {
     font-size: 25px;
     color: #0B3C5D;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 150px;
     position: relative;
 }
@@ -213,10 +226,13 @@ nav ul li a {
 }
 
 .servicos {
-    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com tamanho igual */
+    grid-gap: 20px; /* Espaço entre os itens */
+    padding: 20px;
+    justify-items: center; /* Centraliza os itens dentro das células */
     background-color: beige;
     box-shadow: inset 0px 1px #555555;
-    padding: 20px; /* Adiciona algum espaçamento interno */
 }
 
 .nosso-servico {
@@ -225,35 +241,51 @@ nav ul li a {
     font-size: 45px;
     font-family: Lora;
     color: #0B3C5D;
+    grid-column: 1 / -1; /* Faz com que o título ocupe toda a linha */
 }
 
 .servicos-caixas-psicologia,
 .servicos-caixas-cardiologia,
-.servicos-caixas-nutricao {
+.servicos-caixas-nutricao,
+.servicos-caixas-ortopedia,
+.servicos-caixas-pediatria,
+.servicos-caixas-dermatologia,
+.servicos-caixas-fisioterapia,
+.servicos-caixas-odontologia,
+.servicos-caixas-urologia {
     display: flex;
-    align-items: center; /* Alinha a imagem e o texto ao topo */
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
+    align-content: center;
+    padding: 40px;
+    border: 1px solid #0B3C5D;
     border-radius: 10px;
+    background-color: white;
+    margin: 5px;
 }
 
 .imagem-servicos {
-    width: 200px; /* Define a largura fixa das imagens */
-    height: 200px; /* Define a altura fixa das imagens */
-    border-radius: 20px; /* Mantém o arredondamento dos cantos */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
-    object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+    object-fit: cover;
 }
 
 .info-servico {
+    padding: 20px;
     display: flex;
-    flex-direction: column; /* Alinha título, valor e botão verticalmente */
+    flex-direction: column;
 }
+
 
 .titulo-psicologia,
 .titulo-cardiologia,
-.titulo-nutricao {
+.titulo-nutricao,
+.titulo-ortopedia,
+.titulo-pediatria,
+.titulo-dermatologia,
+.titulo-fisioterapia,
+.titulo-odontologia,
+.titulo-urologia {
     font-size: 40px;
     font-family: Lora;
     color: #555555;
@@ -262,7 +294,13 @@ nav ul li a {
 
 .texto-psicologia,
 .texto-cardiologia,
-.texto-nutricao {
+.texto-nutricao,
+.texto-ortopedia,
+.texto-pediatria,
+.texto-dermatologia,
+.texto-fisioterapia,
+.texto-odontologia,
+.texto-urologia {
     font-size: 20px;
     margin: 10px 0; /* Margem vertical para separar os elementos */
     font-family: Lora;
@@ -270,7 +308,13 @@ nav ul li a {
 
 .botao-psicologia,
 .botao-cardiologia,
-.botao-nutricao {
+.botao-nutricao,
+.botao-ortopedia,
+.botao-pediatria,
+.botao-dermatologia,
+.botao-fisioterapia,
+.botao-odontologia,
+.botao-urologia {
     width: 150px;
     margin-top: 10px; 
     background-color: #555555;
@@ -316,9 +360,13 @@ nav ul li a {
     color: #0B3C5D;
 }
 
-
-
-
+@media (max-width: 1090px) {
+    .sobre-direita {
+        max-width: 500px;
+        align-items: center;
+        margin-left: 1270px;/*700px*/
+    }
+}
 
 
 
