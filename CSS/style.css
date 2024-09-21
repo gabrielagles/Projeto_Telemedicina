@@ -142,7 +142,7 @@ nav ul li a {
 }
 
 .quem-container { 
-    background-image: url(/ASSETS/file.jpg);
+    background-image: url(/file.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: -100px center;
