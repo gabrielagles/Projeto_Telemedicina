@@ -147,7 +147,7 @@ nav ul li a {
     background-size: cover;
     background-position: -100px center;
     padding-top: 150px; /* Adiciona espaço acima do conteúdo sem mover a imagem */
-    padding-bottom: 150px;
+    padding-bottom: 150px; /* margem baixo */ 
     
 }
 
