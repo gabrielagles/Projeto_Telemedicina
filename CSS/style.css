@@ -226,7 +226,6 @@ nav ul li a {
 }
 
 .servicos {
-    display: grid;
     grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com tamanho igual */
     grid-gap: 20px; /* Espaço entre os itens */
     padding: 20px;
@@ -360,13 +359,7 @@ nav ul li a {
     color: #0B3C5D;
 }
 
-@media (max-width: 1090px) {
-    .sobre-direita {
-        max-width: 500px;
-        align-items: center;
-        margin-left: 1270px;/*700px*/
-    }
-}
+
 
 
 
