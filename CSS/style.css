@@ -106,7 +106,7 @@ nav ul li a {
 
 
 .info-jornada {
-    background-image: url(/ASSETS/saude.jpg);
+    background-image: url(.../ASSETS/saude.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -142,7 +142,7 @@ nav ul li a {
 }
 
 .quem-container { 
-    background-image: url(/ASSETS/file.jpg);
+    background-image: url(.../ASSETS/file.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: -100px center;
@@ -237,6 +237,7 @@ nav ul li a {
 .nosso-servico {
     margin-left: 20px;
     margin-top: 80px;
+    margin-bottom: 40px;
     font-size: 45px;
     font-family: Lora;
     color: #0B3C5D;
