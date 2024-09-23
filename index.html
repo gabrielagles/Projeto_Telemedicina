@@ -172,7 +172,6 @@
 
             .titulo-introducao {
                 font-size: 28px;
-                white-space: nowrap;
                 text-align: center;
             }
 
@@ -213,6 +212,186 @@
                 max-width: 500px;
                 align-items: center;
                 margin-left: -100px;
+            }
+
+            .texto-formulario {
+                font-size: 15px;
+                color: #555555;
+                font-family: Merriweather;
+                margin-top: 20px;
+            }
+
+            .servicos-caixas-psicologia,
+            .servicos-caixas-cardiologia,
+            .servicos-caixas-nutricao,
+            .servicos-caixas-ortopedia,
+            .servicos-caixas-pediatria,
+            .servicos-caixas-dermatologia,
+            .servicos-caixas-fisioterapia,
+            .servicos-caixas-odontologia,
+            .servicos-caixas-urologia {
+                display: flex;
+                flex-direction: column;
+                /* Empilha os itens em coluna */
+                align-items: center;
+                /* Centraliza os itens */
+                padding: 40px;
+                border: 1px solid #0B3C5D;
+                border-radius: 10px;
+                background-color: white;
+                margin: 5px;
+            }
+
+            .imagem-servicos {
+                width: 200px;
+                height: 200px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                /* Espaço entre a imagem e o conteúdo abaixo */
+                object-fit: cover;
+            }
+
+            .info-servico {
+                display: flex;
+                flex-direction: column;
+                /* Organiza o texto e o botão em coluna */
+                align-items: center;
+                /* Centraliza o conteúdo */
+                text-align: center;
+            }
+
+            .titulo-psicologia,
+            .titulo-cardiologia,
+            .titulo-nutricao,
+            .titulo-ortopedia,
+            .titulo-pediatria,
+            .titulo-dermatologia,
+            .titulo-fisioterapia,
+            .titulo-odontologia,
+            .titulo-urologia {
+                font-size: 40px;
+                font-family: Lora;
+                color: #555555;
+                margin: 0;
+            }
+
+            .texto-psicologia,
+            .texto-cardiologia,
+            .texto-nutricao,
+            .texto-ortopedia,
+            .texto-pediatria,
+            .texto-dermatologia,
+            .texto-fisioterapia,
+            .texto-odontologia,
+            .texto-urologia {
+                font-size: 20px;
+                margin: 10px 0;
+                /* Margem vertical para separar os elementos */
+                font-family: Lora;
+            }
+
+            .botao-psicologia,
+            .botao-cardiologia,
+            .botao-nutricao,
+            .botao-ortopedia,
+            .botao-pediatria,
+            .botao-dermatologia,
+            .botao-fisioterapia,
+            .botao-odontologia,
+            .botao-urologia {
+                width: 150px;
+                margin-top: 10px;
+                background-color: #555555;
+                color: white;
+                padding: 0.7em 0.5em;
+                font-size: 12px;
+                cursor: pointer;
+                border-radius: 25px;
+                border: none;
+                text-align: center;
+            }
+
+            .botao-psicologia:hover,
+            .botao-cardiologia:hover,
+            .botao-nutricao:hover,
+            .botao-ortopedia:hover,
+            .botao-pediatria:hover,
+            .botao-dermatologia:hover,
+            .botao-fisioterapia:hover,
+            .botao-odontologia:hover,
+            .botao-urologia:hover {
+                background-color: #949494;
+            }
+
+        }
+
+        @media (min-width: 393px) and (max-width: 852px) {
+
+            nav ul li a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-family: Merriweather;
+                font-size: 13px;
+            }
+
+
+            .logo {
+                width: 80px;
+                margin-right: 20px;
+            }
+
+            nav ul li {
+                text-align: center;
+}
+
+
+            .bem-vindo {
+                padding: 100px;
+            }
+
+            .titulo-introducao {
+                font-size: 28px;
+                text-align: center;
+            }
+
+            .texto-introducao {
+                margin-top: 100px;
+                text-align: center;
+
+                font-size: 15px;
+                color: #555555;
+                font-family: Merriweather;
+            }
+
+            .botao-introducao {
+                padding: 1.2em 4.5em;
+            }
+
+            .titulo-quem {
+                font-size: 38px;
+                /* Ajuste o tamanho da fonte do título "Quem Somos?" */
+            }
+
+            .texto-sobre {
+                font-size: 18px;
+                /* Ajuste o tamanho da fonte do texto sobre "Quem Somos?" */
+            }
+
+            .quem-container {
+                background-color: beige;
+                padding-top: 150px;
+                /* Adiciona espaço acima do conteúdo sem mover a imagem */
+                padding-bottom: 150px;
+                /* margem baixo */
+
+            }
+
+            .sobre-container,
+            .sobre-direita {
+                max-width: 500px;
+                align-items: center;
+                margin-left: -120px;
             }
 
             .texto-formulario {
