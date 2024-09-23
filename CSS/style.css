@@ -108,17 +108,6 @@ nav ul li a:hover {
     background-color: #5BC0EB;
 }
 
-
-.info-jornada {
-    background-color: beige;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    display: flex; /* Flexbox para centralizar o conteúdo */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-}
-
 .container-jornada {
     text-align: center;
     max-width: 700px;
