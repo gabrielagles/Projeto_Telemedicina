@@ -132,12 +132,6 @@ nav ul li a:hover {
     font-family: Merriweather;
 }
 
-.quem-container { 
-    background-color: aliceblue;
-    padding-top: 150px; /* Adiciona espaço acima do conteúdo sem mover a imagem */
-    padding-bottom: 150px; /* margem baixo */ 
-    
-}
 
 .sobre-container{
     max-width: 500px;
