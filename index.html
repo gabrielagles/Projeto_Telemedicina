@@ -42,18 +42,6 @@
                 /* Ajuste o tamanho da fonte do texto sobre "Quem Somos?" */
             }
 
-            .quem-container {
-                background-image: url(/ASSETS/file.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: 10px center;
-                padding-top: 150px;
-                /* Adiciona espaço acima do conteúdo sem mover a imagem */
-                padding-bottom: 150px;
-                /* margem baixo */
-
-            }
-
             .sobre-container,
             .sobre-direita {
                 max-width: 500px;
@@ -85,18 +73,6 @@
             .texto-sobre {
                 font-size: 18px;
                 /* Ajuste o tamanho da fonte do texto sobre "Quem Somos?" */
-            }
-
-            .quem-container {
-                background-image: url(/ASSETS/file.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: 0px right;
-                padding-top: 150px;
-                /* Adiciona espaço acima do conteúdo sem mover a imagem */
-                padding-bottom: 150px;
-                /* margem baixo */
-
             }
 
             .sobre-container,
@@ -135,18 +111,6 @@
             .texto-sobre {
                 font-size: 18px;
                 /* Ajuste o tamanho da fonte do texto sobre "Quem Somos?" */
-            }
-
-            .quem-container {
-                background-image: url(/ASSETS/file.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: 0px right;
-                padding-top: 150px;
-                /* Adiciona espaço acima do conteúdo sem mover a imagem */
-                padding-bottom: 150px;
-                /* margem baixo */
-
             }
 
             .sobre-container,
@@ -199,7 +163,6 @@
             }
 
             .quem-container {
-                background-color: beige;
                 padding-top: 150px;
                 /* Adiciona espaço acima do conteúdo sem mover a imagem */
                 padding-bottom: 150px;
@@ -379,7 +342,6 @@
             }
 
             .quem-container {
-                background-color: beige;
                 padding-top: 150px;
                 /* Adiciona espaço acima do conteúdo sem mover a imagem */
                 padding-bottom: 150px;
@@ -560,7 +522,6 @@
             }
 
             .quem-container {
-                background-color: beige;
                 padding-top: 150px;
                 /* Adiciona espaço acima do conteúdo sem mover a imagem */
                 padding-bottom: 150px;
@@ -740,7 +701,6 @@
             }
 
             .quem-container {
-                background-color: beige;
                 padding-top: 150px;
                 /* Adiciona espaço acima do conteúdo sem mover a imagem */
                 padding-bottom: 150px;
@@ -924,7 +884,6 @@
             }
 
             .quem-container {
-                background-color: beige;
                 padding-top: 150px;
                 /* Adiciona espaço acima do conteúdo sem mover a imagem */
                 padding-bottom: 150px;
@@ -1094,12 +1053,11 @@
     </div>
 
     <section>
-        <div class="info-jornada">
+        <div class="info-jornada" style="background-image: url('ASSETS/saude.jpg'); background-size: cover; background-position: center; padding: 50px; color: white;">
             <div class="container-jornada">
                 <h2 class="titulo-saude">
                     Cuide da sua saúde de onde estiver!
                 </h2>
-
                 <p class="texto-saude">
                     Agende agora sua consulta online com nossos especialistas e tenha o cuidado que você
                     merece, sem sair de casa.
@@ -1107,6 +1065,7 @@
             </div>
         </div>
     </section>
+    
 
 
     <section id="quem-somos">
@@ -1310,22 +1269,28 @@
     </div>
 
 
-    <footer>
-        <p>&copy; 2024 <strong>MedMack</strong> - Sua Saúde, Onde Você Estiver.</p>
-
-        <p>Contato: <a href="mailto:contato@medmack.com.br">contato@medmack.com.br</a></p>
-
-        <ul>
-            <li><a href="#">Política de Privacidade</a></li>
-            <li><a href="#">Termos de Uso</a></li>
-        </ul>
-
-        <p>Siga-nos nas redes sociais:
-            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
-            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-        </p>
+    <footer class="rodape">
+        <div>
+            <img src="/ASSETS/logo.jpg" alt="Logo MedMack" class="icon">
+            <p>© 2024 <strong>MedMack</strong> - Sua Saúde, Onde Você Estiver.</p>
+            <p><a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
+        </div>
+    
+        <div>
+            <img src="/ASSETS/gmail.svg" alt="Ícone de E-mail" class="icon">
+            <p><strong>Dúvidas ou quer falar conosco?</strong></p>
+            <p>Envie um e-mail para: <a href="mailto:contato@medmack.com.br">contato@medmack.com.br</a></p>
+        </div>
+    
+        <div>
+            <img src="/ASSETS/medicina.svg" alt="Ícone de medicina" class="icon">
+            <p><strong>Tem alguma dúvida sobre sua saúde?</strong></p>
+            <p>Para esclarecimentos sobre consultas, exames ou orientações médicas, entre em contato conosco pelo e-mail.</p>
+        </div>
+        
+        
     </footer>
+    
 
 </body>
 

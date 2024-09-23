@@ -110,7 +110,7 @@ nav ul li a:hover {
 
 
 .info-jornada {
-    background-image: url(/ASSETS/saude.jpg);
+    background-color: beige;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -120,36 +120,28 @@ nav ul li a:hover {
 }
 
 .container-jornada {
-    background-color: #ffffff;
-    border-radius: 20px; /* Ajuste o arredondamento se necessário */
     text-align: center;
-    max-width: 500px;
+    max-width: 5000px;
     padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
     margin: 0 auto; /* Centraliza horizontalmente se necessário */
 }
 
 .titulo-saude {
-    font-size: 24px;
     color: #333;
-    margin-bottom: 20px; /* Espaçamento entre o título e o texto */
+    margin-bottom: 80px; /* Espaçamento entre o título e o texto */
     font-family: Lora;
     color: #0B3C5D;
-    font-size: 40px;
+    font-size: 55px;
 }
 
 .texto-saude {
-    font-size: 16px;
+    font-size: 30px;
     color: #555555;
     font-family: Merriweather;
-    font-size: 20px;
 }
 
 .quem-container { 
-    background-image: url(/ASSETS/file.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: -100px center;
+    background-color: aliceblue;
     padding-top: 150px; /* Adiciona espaço acima do conteúdo sem mover a imagem */
     padding-bottom: 150px; /* margem baixo */ 
     
@@ -361,7 +353,7 @@ nav ul li a:hover {
     font-size: 40px;
     color: #0B3C5D;
     font-family: Lora;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .texto-formulario {
@@ -376,6 +368,7 @@ nav ul li a:hover {
     justify-content: center; /* Centraliza horizontalmente o formulário */
     width: 100%;             /* Ocupar a largura total */
 }
+
 
 .container-form {
     background-color: beige;
@@ -407,4 +400,73 @@ nav ul li a:hover {
 
 .clear.foot {
     text-align: center;
+}
+
+/* Estilo geral do rodapé */
+.rodape {
+    background-color: #f4dbc9; /* Cor de fundo semelhante */
+    display: flex;
+    justify-content: space-between; /* Divide o conteúdo em três partes */
+    padding: 20px 50px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de profundidade */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rodape > div {
+    width: 30%;
+}
+
+.rodape p, .rodape a, .rodape ul {
+    font-family: Arial, sans-serif;
+    color: #555555;
+    margin: 10px 0;
+}
+
+.rodape strong {
+    font-weight: bold;
+    color: #0B3C5D;
+}
+
+.rodape a {
+    color: #0B3C5D; /* Cor rosa para links */
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+.rodape ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rodape ul li {
+    margin: 5px 0;
+}
+
+.rodape p {
+    margin: 10px 0;
+}
+
+/* Estilos para os ícones (substitua pelo correto caminho de imagem ou SVGs) */
+.rodape .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+    .rodape {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rodape > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
