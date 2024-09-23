@@ -151,120 +151,85 @@ nav ul li a:hover {
 }
 
 
+.quem-container { 
+    padding-top: 150px; /* Adiciona espaço acima do conteúdo sem mover a imagem */
+    padding-bottom: 150px; /* margem baixo */ 
+    
+}
 
-.quem-container {
-    position: relative;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    display: flex;
-    flex-direction: column;
+.sobre-container{
+    max-width: 500px;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
 }
 
-.imagem-fundo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Coloca a imagem atrás do conteúdo */
-    opacity: 0.6; /* Ajusta a opacidade para que o texto seja legível */
-}
-
-.conteudo-sobre {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
+.sobre-direita {
+    max-width: 500px;
     align-items: center;
-    max-width: 1200px; /* Limita a largura máxima */
+    margin-left: 1270px;/*700px*/
 }
 
-.quem-container {
-    position: relative;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.imagem-fundo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Coloca a imagem atrás do conteúdo */
-    opacity: 0.6; /* Ajusta a opacidade para que o texto seja legível */
-}
-
-.conteudo-sobre {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1200px; /* Limita a largura máxima */
-}
-
-.sobre-container {
-    max-width: 600px; /* Controla a largura máxima do texto */
-    margin: 20px 0;
-    text-align: left;
-}
-
-.titulo-quem {
-    font-size: 45px;
-    color: #0B3C5D;
-    text-align: center;
-    margin-bottom: 50px;
-    z-index: 1;
-}
-
-.titulo-sobre,
 .titulo-abordagem,
 .titulo-visao,
-.titulo-missao,
-.titulo-valores {
-    font-size: 30px;
+.titulo-sobre,
+.titulo-valores,
+.titulo-missao {
+    font-size: 25px;
     color: #0B3C5D;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
     position: relative;
 }
 
-.titulo-sobre::after,
 .titulo-abordagem::after,
 .titulo-visao::after,
-.titulo-missao::after,
-.titulo-valores::after {
+.titulo-sobre::after,
+.titulo-valores::after,
+.titulo-missao::after {
+    margin-top: 10px;
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     width: 10%;
-    height: 2px;
-    background-color: #0B3C5D;
+    height: 2px; 
+    background-color: #0B3C5D; 
 }
 
-.texto-sobre,
 .texto-abordagem,
 .texto-visao,
 .texto-missao,
-.texto-valores {
-    font-size: 18px;
+.titulo-sobre {
+    margin-top: 20px;
+    margin-left: 150px;
     font-family: Merriweather;
-    color: #555;
-    line-height: 1.6;
-    text-align: justify; /* Para o texto ficar mais alinhado */
 }
 
+
+.titulo-sobre {
+    font-size: 25px;
+    color: #0B3C5D;
+    margin-top: 90px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.titulo-sobre::after {
+    margin-top: 10px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: 2px; 
+    background-color: #0B3C5D; 
+}
+
+.texto-sobre,
+.texto-valores {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Merriweather;
+}
 
 .servicos {
     grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com tamanho igual */
